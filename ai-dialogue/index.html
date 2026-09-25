@@ -148,6 +148,7 @@
     .topic img { height: auto; }
   }
 </style>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="503aaa65-b155-4d08-be93-c49de54075f4" data-domains="hossamefia.github.io"></script>
 </head>
 <body>
 
@@ -163,7 +164,7 @@
   <p class="count">حوار واحد</p>
 
   <section class="topics" aria-label="الحوارات">
-    <a class="topic" href="can-we-really-unplug-the-ai/">
+    <a class="topic" href="can-we-really-unplug-the-ai/" data-umami-event="open-topic" data-umami-event-topic="can-we-really-unplug-the-ai" data-umami-event-lang="ar">
       <img src="can-we-really-unplug-the-ai/card.png" alt="فيشة مسحوبة من البريزة" width="1920" height="1080" loading="lazy">
       <div class="topic-body">
         <h2>هتقدر فعلاً تشيل الفيشة؟</h2>
@@ -189,7 +190,7 @@
   <p class="count">1 dialogue</p>
 
   <section class="topics" aria-label="Dialogues">
-    <a class="topic" href="can-we-really-unplug-the-ai/#en">
+    <a class="topic" href="can-we-really-unplug-the-ai/#en" data-umami-event="open-topic" data-umami-event-topic="can-we-really-unplug-the-ai" data-umami-event-lang="en">
       <img src="can-we-really-unplug-the-ai/card.png" alt="A plug pulled out of its socket" width="1920" height="1080" loading="lazy">
       <div class="topic-body">
         <h2>Can we really unplug the AI?</h2>
@@ -221,7 +222,7 @@
     btn.textContent = isEn ? "العربية" : "English";
     btn.lang = isEn ? "ar" : "en";
     btn.setAttribute("aria-label", isEn ? "اعرض الصفحة بالعربية" : "Show this page in English");
-    if (push) history.replaceState(null, "", isEn ? "#en" : "#ar");
+    if (push) { history.replaceState(null, "", isEn ? "#en" : "#ar"); if (window.umami) umami.track("switch-language", { to: isEn ? "en" : "ar" }); }
   }
   function fromUrl() {
     var h = (location.hash || "").toLowerCase();

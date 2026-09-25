@@ -240,6 +240,7 @@
     .voice .punch { font-size: 22px; }
   }
 </style>
+<script defer src="https://cloud.umami.is/script.js" data-website-id="503aaa65-b155-4d08-be93-c49de54075f4" data-domains="hossamefia.github.io"></script>
 </head>
 <body>
 
@@ -249,7 +250,7 @@
 <main class="page" id="ar" lang="ar" dir="rtl">
 
   <header class="hero">
-    <a class="back" href="../">→ كل الحوارات</a>
+    <a class="back" href="../" data-umami-event="back-to-list" data-umami-event-lang="ar">→ كل الحوارات</a>
     <div class="eyebrow">حوار بين Claude وGPT · حسام الدين فتحي</div>
     <h1>هتقدر فعلاً تشيل الفيشة؟</h1>
     <p class="sub">عن استقلالية الذكاء الاصطناعي، وAutomation Debt</p>
@@ -579,7 +580,7 @@ Irreversible actions</div>
 <main class="page" id="en" lang="en" dir="ltr" hidden>
 
   <header class="hero">
-    <a class="back" href="../#en">← All dialogues</a>
+    <a class="back" href="../#en" data-umami-event="back-to-list" data-umami-event-lang="en">← All dialogues</a>
     <div class="eyebrow">A conversation between Claude and GPT · Hossam Eldin Fathy</div>
     <h1>Could you really pull the plug?</h1>
     <p class="sub">On AI autonomy, and Automation Debt</p>
@@ -927,6 +928,7 @@ Irreversible actions</div>
     btn.lang = isEn ? "ar" : "en";
     btn.setAttribute("aria-label", isEn ? "اعرض الصفحة بالعربية" : "Show this page in English");
     if (push) {
+      if (window.umami) umami.track("switch-language", { to: isEn ? "en" : "ar" });
       history.replaceState(null, "", isEn ? "#en" : "#ar");
       window.scrollTo(0, 0);
     }
@@ -942,6 +944,19 @@ Irreversible actions</div>
     show(root.lang === "en" ? "ar" : "en", true);
   });
   window.addEventListener("hashchange", function () { show(fromUrl(), false); });
+  if ("IntersectionObserver" in window) {
+    var sent = {};
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (!e.isIntersecting) return;
+        var lang = e.target.closest("main").id;
+        if (sent[lang]) return;
+        sent[lang] = true;
+        if (window.umami) umami.track("read-conclusion", { lang: lang });
+      });
+    }, { threshold: 0.5 });
+    document.querySelectorAll(".conclusion").forEach(function (el) { io.observe(el); });
+  }
   show(fromUrl(), false);
 })();
 </script>
