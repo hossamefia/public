@@ -1,0 +1,21 @@
+{
+  "v": 2,
+  "session": "3f2179ff96c5239a",
+  "transfer": "e57b3a09",
+  "total": 971,
+  "seq": 2,
+  "type": "cal",
+  "rev": 1,
+  "state": "missing",
+  "windows": [],
+  "t": "2026-10-02T18:18:38.367397Z",
+  "camFps": 17,
+  "stats": {
+    "new": 32,
+    "reads": 50,
+    "rereads": 18,
+    "corrupt": 0,
+    "seconds": 2.96,
+    "distinct": 32
+  }
+}
