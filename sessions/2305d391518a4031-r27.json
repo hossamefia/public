@@ -1,0 +1,14 @@
+{
+  "v": 1,
+  "session": "2305d391518a4031",
+  "transfer": "b8cba0f8",
+  "total": 232,
+  "round": 27,
+  "rev": 1,
+  "state": "missing",
+  "windows": [
+    "MQ3:uMug-AAAAOgAAAAAAAAA6AQBKgogAgMACAAAABQGdIggRRdFARAAQAADgAAA"
+  ],
+  "t": "2026-10-02T09:32:58.094291Z",
+  "camFps": 6
+}
