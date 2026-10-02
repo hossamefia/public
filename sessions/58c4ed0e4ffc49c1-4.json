@@ -1,0 +1,15 @@
+{
+  "v": 2,
+  "session": "58c4ed0e4ffc49c1",
+  "transfer": "e57b3a09",
+  "total": 971,
+  "seq": 4,
+  "type": "end",
+  "rev": 1,
+  "state": "missing",
+  "windows": [
+    "MQ3:5Xs6CQAAA8sAAAAAAAADyw8P8PD4__Dw-P-PD_8AAAAAAAD_D_8f8PDw8PDw9___9___8PDw8PDw8PD-____DP__D8___wz__w_z__Dw8PP_D_Dw8A8PDw_w8PDw8PDw8PDwDw8Pz__P_4_wD4_w8A8PAPDw8PD3__8A8A8PDv__Dwz__P_w8PDg"
+  ],
+  "t": "2026-10-02T16:36:24.987526Z",
+  "camFps": 8
+}
