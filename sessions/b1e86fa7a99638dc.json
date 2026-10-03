@@ -3,13 +3,11 @@
   "session": "b1e86fa7a99638dc",
   "transfer": "e57b3a09",
   "total": 971,
-  "seq": 4,
-  "type": "end",
-  "rev": 5,
-  "state": "missing",
-  "windows": [
-    "MQ3:5Xs6CQAAA8sAAAAAAAADywAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-  ],
-  "t": "2026-10-03T19:33:13.096338Z",
-  "camFps": 5
+  "seq": 0,
+  "type": "done",
+  "rev": 6,
+  "state": "complete",
+  "windows": [],
+  "t": "2026-10-03T19:33:15.643318Z",
+  "camFps": 8
 }
