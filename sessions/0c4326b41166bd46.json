@@ -3,14 +3,13 @@
   "session": "0c4326b41166bd46",
   "transfer": "213048ec",
   "total": 81,
-  "seq": 0,
-  "type": "hel",
-  "rev": 1,
+  "seq": 1,
+  "type": "end",
+  "rev": 2,
   "state": "missing",
   "windows": [
-    "MQ3:ITBI7AAAAFEAAAAAAAAAUf____________-A"
+    "MQ3:ITBI7AAAAFEAAAAAAAAAUXIALwAAAABY8G8A"
   ],
-  "t": "2026-10-06T15:55:23.770152Z",
-  "camFps": 12,
-  "codeFps": 27
+  "t": "2026-10-06T15:55:33.742357Z",
+  "camFps": 10
 }
