@@ -1,0 +1,15 @@
+{
+  "v": 2,
+  "session": "23a67c4d54f6976e",
+  "transfer": "d667bdad",
+  "total": 14,
+  "seq": 1,
+  "type": "end",
+  "rev": 1,
+  "state": "missing",
+  "windows": [
+    "MQ3:1me9rQAAAA4AAAAAAAAADmow"
+  ],
+  "t": "2026-10-07T16:07:14.563022Z",
+  "camFps": 5
+}
