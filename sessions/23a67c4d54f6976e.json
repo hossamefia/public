@@ -3,13 +3,11 @@
   "session": "23a67c4d54f6976e",
   "transfer": "d667bdad",
   "total": 14,
-  "seq": 2,
-  "type": "end",
-  "rev": 2,
-  "state": "missing",
-  "windows": [
-    "MQ3:1me9rQAAAA4AAAAAAAAADmow"
-  ],
-  "t": "2026-10-07T16:07:19.448713Z",
+  "seq": 0,
+  "type": "done",
+  "rev": 3,
+  "state": "complete",
+  "windows": [],
+  "t": "2026-10-07T16:07:30.035255Z",
   "camFps": 3
 }
