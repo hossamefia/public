@@ -3,13 +3,13 @@
   "session": "d2fc5a9fc3dca041",
   "transfer": "e57b3a09",
   "total": 971,
-  "seq": 2,
+  "seq": 3,
   "type": "end",
-  "rev": 3,
+  "rev": 4,
   "state": "missing",
   "windows": [
-    "MQ3:5Xs6CQAAA8sAAAAAAAADy-qKCUhAUI-OhGL2vd6OLWCyxZBU0lslOmcBzCr1Jt-f3W7yHvUDLlibwNP_9ujbbm2cZq0z___ndOt3Zmb3WaN4utEJ7ImvuXurheXr9zVffv__8kOP3pMwitJ9fKUCb3IILbyos5JgDcGH_7jaLYjGDg_Asbkd__fg"
+    "MQ3:5Xs6CQAAA8sAAAAAAAADywAAAABAAAAAAABQBAAEDAAAABAAUhshCCQARAJEBkQEwETgBDQDAEACQNPuQEhYAEwAQAABYCskFKBzBARDWaNoAIAAaAABAAABBGDAhBRfAs6XwgCCHAEgAtABVIUCQAAILYCgAgBgCMAAB5jYCYBACgtAsagcf_fg"
   ],
-  "t": "2026-10-08T12:38:58.931443Z",
+  "t": "2026-10-08T12:39:56.411766Z",
   "camFps": 7
 }
