@@ -3,19 +3,13 @@
   "session": "8cdb057232793933",
   "transfer": "e57b3a09",
   "total": 971,
-  "seq": 1,
-  "type": "chk",
-  "rev": 2,
+  "seq": 2,
+  "type": "end",
+  "rev": 3,
   "state": "missing",
-  "windows": [],
-  "t": "2026-10-08T12:45:00.312116Z",
-  "camFps": 12,
-  "stats": {
-    "new": 188,
-    "reads": 203,
-    "rereads": 15,
-    "corrupt": 0,
-    "seconds": 16.28,
-    "distinct": 188
-  }
+  "windows": [
+    "MQ3:5Xs6CQAAA8sAAAAAAAADyyBozEdH______________________P_v__-v____H_Dw8PH_H_Dw_wD8__8PDw8__x8P8PDw_w8PDw8P8PDw8PD_Dw_________-__8P8M___w8PD8__8P8__w_w8P_wAAAAAAAAAARfAx8PMAAP8AAAAAAfD_AAHPg"
+  ],
+  "t": "2026-10-08T12:45:18.293527Z",
+  "camFps": 13
 }
