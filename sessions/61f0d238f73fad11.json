@@ -3,19 +3,19 @@
   "session": "61f0d238f73fad11",
   "transfer": "d0d1f1cd",
   "total": 8949,
-  "seq": 1,
+  "seq": 2,
   "type": "chk",
-  "rev": 2,
+  "rev": 3,
   "state": "missing",
   "windows": [],
-  "t": "2026-10-11T17:10:28.767398Z",
-  "camFps": 33,
+  "t": "2026-10-11T17:10:58.897933Z",
+  "camFps": 21,
   "stats": {
-    "new": 722,
-    "reads": 1602,
-    "rereads": 880,
+    "new": 513,
+    "reads": 545,
+    "rereads": 32,
     "corrupt": 0,
-    "seconds": 48.52,
-    "distinct": 722
+    "seconds": 26.11,
+    "distinct": 513
   }
 }
