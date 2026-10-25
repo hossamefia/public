@@ -3,14 +3,19 @@
   "session": "0aee75cf2ca8a801",
   "transfer": "cc4e874a",
   "total": 9487,
-  "seq": 0,
-  "type": "hel",
-  "rev": 1,
+  "seq": 1,
+  "type": "chk",
+  "rev": 2,
   "state": "missing",
-  "windows": [
-    "MQ3:zE6HSgAAJQ8AAAAAAAAlDwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQDgAB4BiOAgAA4AAAAMAAGOABAAAPAAAAAPEPEAAAECAQAeEeBhAAAAAAAAABHgAcAA8OAQABHgAQAeAIAeAAAAAAGADg8OGQEAAAAAAADgAAABAPjwLwAvj_fy_y8M_wjz8v-PTw-I-Pj3-I-viPD4____8Pj-____r4_w7_7_8Pj48O__APD6_9_1_9_48Pz_DwDwDwDy8PH6_w8vP_APPw8Pjw8E_z_0_PDy8A_w9P8P___w_____4__D_Dw-P8P____D-__7__-___z8PD4_P__D4_48Pz__P_w8P_w_w_w-f_w_x_4_w8P8P8P8PD_T_D_j_P_8PDw______j_D_D_r__3__-P____-P_w-PDwD4_4__Tw8PAPD6__jw7_8P-P-P8PL_DP_4_4-P8Pj_j_Hw-v_4_7__D_f_8_-__wD4_wD_f_8PAI_w8Pjw-P8PAPDw9PD4_wj48PCP-Pj-__D8_wj_DP_w8Pjw_w-P8PH_Dw-P8f-P9PDw8PAP8_8PLw_w8P8PD0_3__D___8PD4____D___Dw_w-PgPD-__-P7__4_wD8__D_Dwz_8P8fD5_wj4_w_x-P-P_wD_r_Dw-P8_8P9__w____8PD___Dw____AP8P8PD4_v_w8P7__v_w_w-Pj_APD4_P_P_w8Pj_Dw8PDwj_Dw-P8PDw8I_4_4_w_49f9f9f8PD3__D___-Pj4-PD4_48v-Pjw7__4_wD48Pjw-Pz_-A9P_w_P8P__z_8fDw8P-PDwDw8Pv_8PP_jw8Pj4_w____j_Dw8I8P8A_w-P8I____D_gP8A_48PL_r_Dw-PD_jwD8__APAA8I-P-PDw_x8P8A8A8Pjz8Pj4-P9P8P8_8I_w8PD3_w-PDwDwj_D___iPjw____8Aj_j4_wDwDv_wD_DwDw8v8AAA8P9P_w8PDw8I_wD_CPCPDw8_Dw8_APL_APDw8A8A9_8PDwDwDw8PDw___wAPDy8PLv__APDwj_AA8PDz_w8P7_8PAA8M_w8Pj_APD48PAPj_AA8vD_8Pvw8C8PfAAADAAMDD_zAMMP8MAwDDf7tDQwz9zAQQQD8PD4_______w9__wAA8AjwAP__APAACPDwD__v_v8PAPDwDwz_8P_w8vAM__AA8PAM_wr_j_APTw8_Lw_8_w8ADwAPAPjw9_8PD48PDwTw___________w8I_wD4Dw8E8P8I_v_w_P8A8A8A8M-P8A8A_P8PDx_w8PAPAPDw8PTwDwAPP_Dwj4_w_wD3_w9PDw___w8P__Dw8A8PT08A8vDwAP8C8PDP_wAPDwDwz_APjwz_z_8M__GP8I_4-PAPDw8Pjw8_j_AA_w8A-P9_8A8AD_jw-P8ADwDwjwDw8P8Aj_DwDw8C_wAPD_APjP_w8A__z_8PAPDP_48A8Pg="
-  ],
-  "t": "2026-10-25T15:15:23.118400Z",
-  "camFps": 17,
-  "codeFps": 8
+  "windows": [],
+  "t": "2026-10-25T15:16:04.155246Z",
+  "camFps": 19,
+  "stats": {
+    "new": 667,
+    "reads": 728,
+    "rereads": 61,
+    "corrupt": 0,
+    "seconds": 38.45,
+    "distinct": 667
+  }
 }
